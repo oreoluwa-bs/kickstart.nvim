@@ -5,4 +5,5 @@
 
 return {
   { 'datsfilipe/vesper.nvim', opts = {} },
+  { 'nvim-lualine/lualine.nvim', opts = {}, dependencies = { 'nvim-tree/nvim-web-devicons' } },
 }
